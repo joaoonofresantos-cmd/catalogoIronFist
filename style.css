@@ -131,6 +131,8 @@ body {
 .document {
     flex: 1;
 
+    min-height: calc(100vh - 100px);
+
     padding: 50px;
 
     max-width: 1000px;
