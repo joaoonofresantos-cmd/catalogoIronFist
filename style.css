@@ -132,21 +132,10 @@ body {
     flex: 1;
 
     padding: 50px;
-
+    
     max-width: 1000px;
 
-    background-image:
-        linear-gradient(
-            rgba(205, 195, 150, 0.82),
-            rgba(205, 195, 150, 0.82)
-        ),
-        url("Backrooms-wallpaper.jpg");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: repeat;
+    background-image: url("Backrooms-wallpaper.jpg");
 }
 
 
