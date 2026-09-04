@@ -132,10 +132,12 @@ body {
     flex: 1;
 
     padding: 50px;
-    
+
     max-width: 1000px;
 
     background-image: url("Backrooms-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
