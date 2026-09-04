@@ -242,3 +242,167 @@ body {
     display: block;
     border: 1px solid #3f3a2f;
 }
+
+/* REGISTRO DAS ENTIDADES */
+
+.entity-card {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    border: 1px solid #5c5542;
+
+    background-color: rgba(220, 210, 170, 0.35);
+
+    display: grid;
+
+    grid-template-columns: 42% 58%;
+
+    gap: 25px;
+}
+
+
+/* FOTO DA ENTIDADE */
+
+.entity-image {
+    border: 1px solid #5c5542;
+
+    padding: 8px;
+
+    background-color: rgba(220, 210, 170, 0.45);
+}
+
+.entity-image img {
+    width: 100%;
+
+    height: 520px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* INFORMAÇÕES */
+
+.entity-information {
+    padding: 5px 10px;
+}
+
+.entity-label {
+    margin-top: 10px;
+
+    margin-bottom: 6px;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    color: #4b4638;
+}
+
+.entity-information h4 {
+    margin-top: 0;
+
+    margin-bottom: 30px;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    font-size: 30px;
+
+    font-weight: normal;
+
+    letter-spacing: 2px;
+}
+
+
+/* CAIXA DA DESCRIÇÃO */
+
+.description-box {
+    min-height: 180px;
+
+    padding: 15px;
+
+    border: 1px dashed #5c5542;
+}
+
+.description-box p {
+    margin: 0;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 13px;
+
+    font-style: italic;
+
+    color: #5c5542;
+}
+
+
+/* DETALHES DA ENTIDADE */
+
+.entity-details {
+    grid-column: 1 / 3;
+
+    border-top: 1px solid #5c5542;
+
+    padding-top: 20px;
+
+    margin-top: 5px;
+}
+
+.entity-details > p:not(.entity-label) {
+    margin-top: 0;
+
+    margin-bottom: 25px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+/* OBSERVAÇÕES */
+
+.observations-box {
+    min-height: 100px;
+
+    padding: 15px;
+
+    border: 1px dashed #5c5542;
+}
+
+.observations-box p {
+    margin: 0;
+
+    font-family: "Courier New", monospace;
+
+    font-size: 13px;
+
+    font-style: italic;
+
+    color: #5c5542;
+}
+
+
+/* FINAL DO REGISTRO */
+
+.record-end {
+    margin-top: 30px;
+
+    padding-top: 15px;
+
+    border-top: 2px solid black;
+
+    text-align: center;
+}
+
+.record-end p {
+    font-family: "Courier New", monospace;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+}
