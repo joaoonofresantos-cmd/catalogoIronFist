@@ -135,6 +135,8 @@ body {
 
     padding: 50px;
 
+    max-width: 1200px;
+
     background-image:
         linear-gradient(
             rgba(205, 195, 150, 0.75),
