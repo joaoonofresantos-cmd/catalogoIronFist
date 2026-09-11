@@ -1,2 +1,3 @@
 # catalogoIronFist
-Catalogo das anomalias encontradas pelo grupo de expedição dos Punhos de ferro
+O Complexo foi a maior descoberta de toda a história da humanidade.
+Graças ao nosso fundador [xxxxxxxxx] nos aprofundamos nessa anomalia que são os Bastidores 
